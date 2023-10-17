@@ -1,29 +1,18 @@
 "use client"
 import * as React from 'react';
-import { Unstable_Popup as Popup } from '@mui/base/Unstable_Popup';
-import { styled } from '@mui/system';
 import Image from 'next/image';
 import styles from './lenguaje.module.css'
-import { Typography } from '@mui/material';
 import LinearIndeterminate from '../../atoms/Burguer';
 export const Lenguaje = () => {
-  const [anchor, setAnchor] = React.useState(null);
-
-  const handleClick = (event) => {
-    setAnchor(anchor ? null : event.currentTarget);
-  };
-
-  const open = Boolean(anchor);
-  const id = open ? 'simple-popper' : undefined;
-
+  
   return (
     <>
-    <Typography className={styles.text_lenguaje}>
+    <div className={styles.text_lenguaje}>
         Estos son las herramientas que manejo
-    </Typography>
+    </div>
     <secction className={styles.container_lenguaje}>
         <div className={styles.cards}>
-        <Button type="button" onClick={handleClick} className={styles.but}>
+        
             
             <Image
             className={styles.lenguaje}
@@ -32,12 +21,12 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-        </Button>
+        
         
         </div>
 
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -46,11 +35,10 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -59,11 +47,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -72,11 +60,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -85,11 +73,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button  type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -98,11 +86,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -111,11 +99,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -124,11 +112,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -137,11 +125,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}>
+            
             
             <Image
             className={styles.lenguaje}
@@ -150,11 +138,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}> 
+            
             
             <Image
             className={styles.lenguaje}
@@ -163,11 +151,11 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
         <div className={styles.cards}>
-            <Button type="button" onClick={handleClick} className={styles.but}> 
+            
             
             <Image
             className={styles.lenguaje}
@@ -176,7 +164,7 @@ export const Lenguaje = () => {
             width={100}
             height={100}
             />
-            </Button>
+            
             
         </div>
     </secction>
@@ -187,27 +175,6 @@ export const Lenguaje = () => {
 
 
 
-const blue = {
-  500: '#007FFF',
-  600: '#0072E5',
-  700: '#0059B2',
-};
 
 
 
-const Button = styled('button')`
-  
-
-  &:hover {
-    background-color: ${blue[700]};
-  }
-
-  &:active {
-    background-color: ${blue[700]};
-  }
-
-  &:focus-visible {
-    box-shadow: 0 4px 20px 0 rgb(61 71 82 / 0.1), 0 0 0 5px rgb(0 127 255 / 0.5);
-    outline: none;
-  }
-`;

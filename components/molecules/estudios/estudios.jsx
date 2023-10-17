@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Image } from 'react-bootstrap';
 import styles from './estudios.modules.css'
-import { Typography } from '@mui/material';
 
 export const Study =() =>{
 
@@ -67,8 +66,8 @@ export const Study =() =>{
 
         </div>
 
-    <footer>
-        <div class="container">
+    <footer className='con'>
+        <div className="container">
         <Image className="contact"
             src="/images/instagram-glyph-1.svg"
             alt="what"

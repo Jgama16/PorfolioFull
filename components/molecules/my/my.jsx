@@ -19,7 +19,7 @@ export function My(){
                 width={350}
                 height={400}
                 />
-                <Typography >
+                <div >
                    <h4 className="subtitle">Contactame</h4> 
 
                     <button className="direcciones">
@@ -55,7 +55,7 @@ export function My(){
                         </a>
                         
                     </button>
-                </Typography>
+                </div>
                 </div>
                 <div className="second">
                 <h1 className="sobreMy">Developer Web</h1>
