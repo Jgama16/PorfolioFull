@@ -1,0 +1,188 @@
+.my{
+    width: 100%;
+    
+    border: solid black 1px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: rgb(238, 238, 241);
+    background: transparent;
+    display: inline;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+.container_my{
+    margin: 20px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.prime{
+    padding-left: 170px;
+}
+.center{
+    align-items: center;
+}
+.mir{
+    padding: 10px;
+    
+}
+.contact{
+    padding: 10px;
+    margin-left: 40px;
+}
+.sobreMy{
+    padding-left: 0px;
+    display: block;
+    text-align: center;
+    margin-left: 70px;
+    /* background: rgb(63,130,251);
+background: radial-gradient(circle, rgba(63,130,251,1) 0%, rgba(250,70,252,1) 100%); */
+background: transparent;
+}
+.ter{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 1em;
+    background: rgb(239,63,251);
+    background: radial-gradient(circle, rgba(239,63,251,1) 0%, rgba(70,159,252,1) 100%);
+    color: black;
+    border: solid;
+    border-color:rgb(255, 255, 255) ;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+h4{
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media (min-width: 1000px) and (max-width : 1200px){
+
+    .my{
+        margin: 400px;
+    }
+    .prime{
+        padding: 0px;
+    }
+    .sobreMy{
+        font-size: 1.8em;
+        width: 60%;
+    }
+}
+@media (min-width: 750px) and (max-width : 1000px){
+
+    .my{
+        margin: 40px;
+        background: transparent;
+    }
+    .prime{
+        padding: 0px;
+    }
+    .subtitle{
+        font-size: 1.5em;
+        padding-left:70px ;
+    }
+    .sobreMy{
+        font-size: 1.2em;
+        width: 40%;
+    }
+    .ter{
+        font-size: .8em;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width : 750px){
+
+    .prime{
+        padding: 0;
+    }
+    .my{
+        padding: 0;
+        margin-left: 40px;
+        font-size: 1.5em;
+        background: transparent;
+        
+    }
+    .mir{
+        width: 200px;
+        height: 260px;
+    }
+    .subtitle{
+        font-size: 1.2em;
+        padding-left:70px ;
+        padding-bottom: 20px;
+    }
+    .direcciones{
+        padding: 0;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-right: 0;
+    }
+    .sobreMy{
+        font-size: 1em;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 0;
+        background: white;
+        color: black;
+    }
+    .ter{
+        font-size: .8em;
+        padding: 10px;
+        background: white;
+    }
+}
+
+@media (min-width: 320px) and (max-width : 500px){
+
+    .container_my{
+        grid-template-columns: 1fr;
+    }
+    .mir{
+        width: 200px;
+        height: 260px;
+    }
+    .my{
+        width: 100%;
+        padding: 0;
+        margin-left: 120px;
+        font-size: 1.2em;
+        background: transparent;
+        
+    }
+    .prime{
+        padding-left: 40px;
+    }
+    .subtitle{
+        font-size: 1.2em;
+        padding-left:70px ;
+        padding-bottom: 20px;
+    }
+    .direcciones{
+        padding: 0;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-right: 0;
+    }
+    .sobreMy{
+        font-size: 1em;
+        width: 40%;
+        margin-top: 10px;
+        background: white;
+        color: black;
+    }
+    .ter{
+        font-size: .8em;
+        padding: 10px;
+        background: white;
+    }
+}

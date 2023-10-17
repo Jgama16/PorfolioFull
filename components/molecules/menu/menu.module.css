@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Pixelify+Sans:wght@400;500;600&family=Poppins:ital,wght@0,300;0,500;1,200;1,500;1,700&display=swap');
+.container{
+    width: 100%;
+    background: transparent;
+    font-family:'Picelify Sans', cursive ;
+    
+    color: rgb(255, 252, 252);
+    padding: 0;
+    margin: 0 ;
+    border: 0 transparent;;
+    margin-bottom: 40px;
+}
+.caja{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+.nombre{
+    padding-left: 40px;
+    font-size: 1.3em;
+}
+
+
+
+.contenedor_menu.isActive{
+    display: flex;
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.2em;
+}
+.Button{
+    font-size: 2rem;
+}
+.cabecera_svg{
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width : 500px){
+
+    
+    .nombre{
+        font-size: .8em;
+        
+    }
+    .contenedor_menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: .8em;
+        padding-left: 70px;
+        
+    }
+    .cabecera_svg{
+        display: none;
+    }
+}
+@media (min-width: 500px) and (max-width : 800px){
+
+    
+    .nombre{
+        font-size: .8em;
+        width: 100%;
+        padding-right:0px ;
+        
+    }
+    .contenedor_menu{
+        width: 100%;
+        display: flex;
+        
+        font-size: .8em;
+        padding-left: 70px;
+        
+    }
+    .cabecera_svg{
+        display: none;
+    }
+}

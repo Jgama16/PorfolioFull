@@ -1,0 +1,151 @@
+header{
+    margin: 20px;
+    width: 100%;
+    border: 20px;
+    display: grid;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+}
+
+
+.primero{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+h3{
+    width: 200px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-color: rgb(247, 247, 247);
+    background: linear-gradient(600deg,rgb(8, 124, 166),rgb(133, 7, 7));
+    padding: 8px;
+    color: aliceblue;
+    margin-left: 120px;
+
+    
+}
+
+h1{
+    width: 430px;
+    border-radius: 20px;
+    color: rgb(240, 244, 245);
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px rgb(91, 6, 6); 
+    width: 430px;
+    text-align: center;
+
+}
+.contact{
+    align-items: center;
+}
+
+.segundo{
+    width: 100%;
+    /* background: linear-gradient(600deg,rgb(8, 124, 166),rgb(133, 7, 7)); */
+    border-radius: 20px ;
+    align-self: center;
+    align-items: end;
+    
+    
+}
+
+.lobo{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    left: 557px;
+    top: 140px;
+}
+
+@media (min-width: 320px) and (max-width : 500px){
+    header{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .primero{
+        padding: 70px;
+        width: 80%;
+    }
+    h3{
+        width: 180px;
+        font-size: .8em;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    
+    h1{
+        border-radius: 20px;
+        color: rgb(240, 244, 245);
+        font-size: 1.5em;
+        -webkit-text-stroke: 1px rgb(91, 6, 6); 
+        width: 130px;
+        text-align: center;
+        margin-left: 30px;
+    
+    }
+    .segundo{
+        width: 100%;
+        position: absolute;
+        /* background: linear-gradient(600deg,rgb(8, 124, 166),rgb(133, 7, 7)); */
+        
+    }
+    .lobo{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 57px;
+        top: 10px;
+        display: none;
+    }
+}
+@media (min-width: 500px) and (max-width : 800px){
+    header{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .contenedor_inic{
+        grid-template-columns: 1fr 1fr;
+    }
+    .primero{
+        padding: 70px;
+        width: 80%;
+    }
+    h3{
+        width: 180px;
+        font-size: .8em;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    
+    h1{
+        border-radius: 20px;
+        color: rgb(240, 244, 245);
+        font-size: 1.5em;
+        -webkit-text-stroke: 1px rgb(91, 6, 6); 
+        width: 130px;
+        text-align: center;
+        margin-left: 30px;
+    
+    }
+    .segundo{
+        width: 100%;
+        position: relative;
+        /* background: linear-gradient(600deg,rgb(8, 124, 166),rgb(133, 7, 7)); */
+        
+    }
+    .lobo{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 470px;
+        top: -250px
+    }
+}
+
+

@@ -1,0 +1,77 @@
+
+.text_lenguaje{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+}
+.container_lenguaje{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    padding: 100px;
+    margin: 20px;
+    
+}
+
+.cards{
+    display: flex;
+   
+    border-radius: 20px;
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    margin: 10px;
+    
+ 
+  /* --x: calc(var(--posX, 0) * 1px);
+  --y: calc(var(--posY, 0) * 1px);
+  background-image: 
+    linear-gradient(115deg, rgb(211 255 215), rgb(0 0 0)), 
+    radial-gradient( 90% 100% at calc( 50% + var(--x)) calc( 0% + var(--y)), rgb(200 200 200), rgb(022 000 045)), 
+    radial-gradient(100% 100% at calc( 80% - var(--x)) calc( 0% - var(--y)), rgb(250 255 000), rgb(036 000 000)), 
+    radial-gradient(150% 210% at calc(100% + var(--x)) calc( 0% + var(--y)), rgb(020 175 125), rgb(000 010 255)), 
+    radial-gradient(100% 100% at calc(100% - var(--x)) calc(30% - var(--y)), rgb(255 077 000), rgb(000 200 255)), 
+    linear-gradient(60deg, rgb(255 000 000), rgb(120 086 255));
+  background-blend-mode: overlay, overlay, difference, difference, difference, normal; */
+  /* background: rgb(175,176,192);
+background: linear-gradient(90deg, rgba(175,176,192,1) 0%, rgba(62,66,67,1) 63%, rgba(222,227,227,1) 100%); */
+}
+.but{background: rgb(36,0,5);
+background: radial-gradient(circle, rgba(36,0,5,1) 0%, rgba(65,202,187,1) 18%, rgba(0,52,255,1) 100%);
+     background:transparent; 
+    
+    border-color:rgb(174, 0, 0);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10px;
+} 
+@media (min-width: 600px) and (max-width : 750px){
+  .text_lenguaje{
+    font-size: 1.9em;
+    
+  }
+  
+  .container_lenguaje{
+    width: 100%;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width : 600px){
+  .text_lenguaje{
+    font-size: 1.5em;
+  }
+  .lenguaje{
+    width: 60px;
+    height: 60px;
+  }
+  .container_lenguaje{
+    width: 100%;
+    align-items: center;
+    padding: 40px;
+    margin: 0px;
+  }
+}
