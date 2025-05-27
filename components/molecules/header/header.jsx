@@ -14,7 +14,7 @@ export function Part_one(){
                 <div className="primero">
                 
                 <h3>Welcome to my Portfolio </h3>
-                <h1 > Hi! i'm Juan Web Designer </h1>
+                <h1 > Hi! I&apos;m Juan Web Designer </h1>
                 
                 </div>
                 <div className="segundo">
